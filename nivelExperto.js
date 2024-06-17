@@ -42,18 +42,6 @@ function averageSquareMetersCity(city) {
 
 }
 
-// const floorsMadrid = averageSquareMetersCity("madrid")
-// const floorsBarcelona = averageSquareMetersCity("barcelona")
-// const floorsValencia = averageSquareMetersCity("valencia")
-// const floorsSevilla = averageSquareMetersCity("sevilla")
-// const floorsZaragoza = averageSquareMetersCity("zaragoza")
-// const floorsMalaga = averageSquareMetersCity("málaga")
-// const floorsMurcia = averageSquareMetersCity("murcia")
-// const floorsPalma = averageSquareMetersCity("palma")
-// const floorsLasPalmasDeGranCanaria = averageSquareMetersCity("canaria")
-// const floorsBilbao = averageSquareMetersCity("bilbao")
-
-// console.log(floorsLasPalmasDeGranCanaria);
 
 
 // 20. Ordenar los objetos por nombre de forma descendente.
