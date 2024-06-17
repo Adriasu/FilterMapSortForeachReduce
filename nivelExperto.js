@@ -31,18 +31,21 @@ import { dataArray } from "./data.js";
 
 // 19. Obtener un nuevo array con el promedio de los metros cuadrados por ciudad de todos los objetos.
 
+// function averageSquareMetersCity(array) {
+//   const citiesAverage = array.reduce((acc, property) => {
+//     let city = property.direccion.split(", ")[1];
+//     acc[city] = acc[city] || { totalMeters: 0, count: 0 };
+//     acc[city].totalMeters += property.metrosCuadrados;
+//     acc[city].count++;
+//     return acc;
+//   }, {});
+//   const result = Object.keys(citiesAverage).map((city) => ({
+//     [city]: (citiesAverage[city].totalMeters / citiesAverage[city].count).toFixed(2)
+//   }))
+//   return result
+// }
 
-const cities = ["madrid", "barcelona", "valencia", "sevilla", "zaragoza", "málaga", "murcia", "palma", "canaria", "bilbao"]
-
-function averageSquareMetersCity(city) {
-  const cityArray = dataArray.filter((cities) => {
-    return cities.direccion.toLowerCase().includes(city);
-  });
-  return cityArray;
-
-}
-
-
+// console.log(averageSquareMetersCity(dataArray));
 
 // 20. Ordenar los objetos por nombre de forma descendente.
 
