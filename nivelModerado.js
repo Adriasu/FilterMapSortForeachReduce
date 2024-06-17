@@ -22,13 +22,13 @@ import { dataArray } from "./data.js";
 
 // 8. Obtener la suma total y el promedio de los metros cuadrados de todos los objetos.
 
-const sumSquareMeters = dataArray.reduce((acc, squareMeters) => {
-    return acc + squareMeters.metrosCuadrados
-}, 0)
+// const sumSquareMeters = dataArray.reduce((acc, squareMeters) => {
+//     return acc + squareMeters.metrosCuadrados
+// }, 0)
 
-const averageSquareMeters = (sumSquareMeters / dataArray.length).toFixed(2)
+// const averageSquareMeters = (sumSquareMeters / dataArray.length).toFixed(2)
 
-console.log(`La suma de los metros cuadrados es ${sumSquareMeters} m2 y su promedio es ${averageSquareMeters} m2`);
+// console.log(`La suma de los metros cuadrados es ${sumSquareMeters} m2 y su promedio es ${averageSquareMeters} m2`);
 
 
 // 9. Obtener un nuevo array con los objetos cuya dirección contiene la palabra "calle".
