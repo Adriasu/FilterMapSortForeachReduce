@@ -6,12 +6,12 @@ import { dataArray } from "./data.js";
 
 // function filterCity (city) {
 //     const cityArray = dataArray.filter((cities) => {
-//         return cities.direccion.includes(city)
+//         return cities.direccion.toLowerCase().includes(city)
 //     })
 //     return cityArray
 // }
 
-// console.log(filterCity("Madrid"));
+// console.log(filterCity("madrid"));
 
 // 2. Obtener un nuevo array con los nombres de los objetos.
 
